@@ -1,0 +1,226 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace calculadora_clas
+{
+    int x = 0; int z = 0;
+    static menu obj = new class menu();
+    static suma obj = new class suma();
+    static res obj = new class res();
+    static multiplicacion obj = new class multiplicacion();
+    static division obj = new class division();
+    static raizzz obj = new class raizzz();
+
+        
+}       
+       try
+        {
+        Console.Write("Ingrese el primer numero:");
+                string linea = Console.ReadLine();
+           var x = int.Parse(linea);
+        }
+
+        catch
+        {
+      Console.Write("Debe ingresar obligatoriamente un simbolo.");
+
+                Console.ReadLine();
+                Application.Restart();
+         }
+
+        try
+        {
+        Console.Write("Ingrese el segundo numero:");
+                string linea = Console.ReadLine();
+                 var z = int.Parse(linea);
+        }
+
+        catch
+        {
+        Console.Write("Debe ingresar obligatoriamente un simbolo.");
+
+                Console.ReadLine();
+                Application.Restart();
+         }
+
+
+
+        if (i ==  √ )
+        {
+             int l = x ;
+             double result = Math.Sqrt(l);
+             Console.WriteLine("el resultado es: " + result);
+
+                Break;;
+        }
+
+        else
+{
+                switch
+                {
+                Case" s ";
+                Console.writeline(" su resultado es: ");
+                R = x + z;
+
+                Console.writeline("{0} + {1} = {2}", x, z,
+                Break;
+
+                Case" r ";
+                Console.writeline(" su resultado es: ");
+                R = x - z;
+                Console.writeline("{0} - {1} = {2}", x, z,
+                Break;
+
+                Case" n ";
+                Console.writeline(" su resultado es: ");
+                R = x* z;
+                Console.writeline("{0} * {1} = {2}", x, z,
+                Break;
+
+                Case" d ";
+                Console.writeline(" su resultado es: ");
+                R = x / z;
+                Console.writeline("{0} / {1} = {2}", x, z,
+                Break;
+
+
+            }
+}
+Console.writeline(" ¿desea continuar? escriba Si / no : ");
+            If(si == " ")
+{
+    Application.Restart();
+}
+else
+            {
+                Console.writeline(" error escriba si o no");
+            }
+
+
+            If(no == " ")
+{
+    Application.Exit();
+}
+else
+            {
+                Console.writeline(" error escriba si o no");
+            }
+    }
+}
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace calculadora_clas
+{
+    class menu
+    {
+        private int i = 0;
+
+        public int menu(
+            {
+            Console.writeline("ingrese el simbolo para realizer la operación ");
+            Console.writeline("______________________________________");
+            Console.writeline("  +  ");
+            Console.writeline("   -  ");
+            Console.writeline("  *  ");
+            Console.writeline("   /  ")
+            Console.writeline("   √  ");
+            Console.writeline("______________________________________");
+            i = int.Parse(Console.ReadLine());
+            return i;
+
+            try
+            {
+                Console.Write("Ingrese un simbolo:");
+                string linea = Console.ReadLine();
+                var i = int.Parse(linea);
+            }
+            catch
+            {
+                Console.Write("Debe ingresar obligatoriamente un simbolo.");
+
+                Console.ReadLine();
+                Application.Restart();
+            }
+        }
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Linq
+
+    namespace suma
+{
+    class Suma
+    {
+        public double Suma(double x, double z)
+        {
+            double s;
+            s = x + z;
+            return s;
+
+
+        }
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace calculadora_clas
+{
+    class res
+    {
+        public double Suma(double x, double z)
+        {
+            double s;
+            s = x + z;
+            return s;
+
+
+        }
+    }
+}
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace calculadora_clas
+{
+    class multiplicacion
+    {
+        public double Suma(double x, double z)
+        {
+            double n;
+            n = x + z;
+            return n;
+        }
+    }
+}
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace calculadora_clas
+{
+    class division
+    {
+        public double Suma(double x, double z)
+        {
+            double d;
+            d = x + z;
+            return d;
+
+
+        }
+    }
+}
